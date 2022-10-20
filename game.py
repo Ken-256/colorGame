@@ -10,22 +10,28 @@ colours = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'brown', 'pink'
 def setTimer30():
     global setTime
     global time
+    global score
     setTime = 30
     time = 30
+    score = 0
     update()
 
 def setTimer60():
     global setTime
     global time
+    global score
     setTime = 60
     time = 60
+    score = 0
     update()
 
 def setTimer90():
     global setTime
     global time
+    global score
     setTime = 90
     time = 90
+    score = 0
     update()
 
 def update():
